@@ -1,0 +1,26 @@
+.customTooltipInnerWrapper {
+  position: relative;
+  background-color: pink;
+  width: fit-content;
+}
+
+.customTooltipInvisible {
+  display: none;
+}
+
+.customTooltipVisible {
+  display: block;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: fit-content;
+  height: auto;
+  background-color: grey;
+  color: beige;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.3rem 1rem;
+  border-radius: 4px;
+  opacity: 0.85;
+}

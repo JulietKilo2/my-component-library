@@ -1,0 +1,8 @@
+.customCard {
+  width: fit-content;
+  height: auto;
+  border-radius: 8px;
+  background-color: white;
+  padding: 2rem 1rem;
+  border: 1px solid white;
+}

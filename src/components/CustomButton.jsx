@@ -1,17 +1,10 @@
 import React from "react";
 import styles from "./CustomButton.module.css";
 
-const CustomButton = ({ label, textColor, backgroundColor, radius }) => {
+const CustomButton = ({ children, customStyles }) => {
   return (
-    <button
-      className={styles.customButton}
-      style={{
-        color: textColor || "black",
-        backgroundColor: backgroundColor || "white",
-        borderRadius: radius || "2px",
-      }}
-    >
-      {label}
+    <button className={styles.customButton} style={customStyles}>
+      {children}
     </button>
   );
 };
