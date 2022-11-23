@@ -5,6 +5,17 @@ import CustomCard from "./components/CustomCard";
 import CustomTooltip from "./components/CustomTooltip";
 
 function App() {
+  const clickEvent = () => {
+    console.log("clicked");
+  };
+
+  const newEvent = () => {
+    const newParagraph = document.createElement("p");
+    const newContent = document.createTextNode("Hello world");
+    newParagraph.appendChild(newContent);
+    document.body.append(newParagraph);
+  };
+
   return (
     <div className="App">
       <header className="App-header"></header>
@@ -27,6 +38,7 @@ function App() {
                 backgroundColor: "#000080",
                 borderRadius: "4px",
               }}
+              buttonEvent={newEvent}
             >
               Click
             </CustomButton>

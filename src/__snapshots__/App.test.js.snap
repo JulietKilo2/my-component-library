@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test CustomTooltip render custom tooltip 1`] = `
+<div>
+  <div
+    class="customTooltipOuterWrapper"
+  >
+    <div
+      class="customTooltipInnerWrapper"
+    >
+      content
+      <span
+        class="customTooltipInvisible"
+      >
+        tooltip
+      </span>
+    </div>
+  </div>
+</div>
+`;
